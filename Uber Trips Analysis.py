@@ -11,7 +11,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-data = pd.read_csv(r"C:/Users/Arvind/Desktop/Uber_Trips_Analysis/Dataset/uber-raw-data-sep14.csv")
+data = pd.read_csv(r"C:/Users/Santosh/Desktop/Uber_Trips_Analysis/Dataset/uber-raw-data-sep14.csv")
 data["Date/Time"] = data["Date/Time"].map(pd.to_datetime) 
 data.head()
 
